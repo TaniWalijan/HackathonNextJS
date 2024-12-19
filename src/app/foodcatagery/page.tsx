@@ -11,10 +11,10 @@ const FoodCategory = () => {
   ];
 
   return (
-    <section className="bg-black text-white py-16 px-6">
+    <section className="bg-[#f4ebe2] text-white py-16 px-6">
       <div className="container mx-auto text-center">
         {/* Title */}
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-black">
           <span className="text-orange-500">Choose</span> Food Item
         </h2>
 
@@ -33,7 +33,7 @@ const FoodCategory = () => {
 
               {/* Overlay label */}
               <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 px-4 py-2 rounded-md">
-                <span className="text-orange-500 font-semibold">{item.label}</span>
+                <span className="text-[#F03328] font-semibold">{item.label}</span>
               </div>
             </div>
           ))}

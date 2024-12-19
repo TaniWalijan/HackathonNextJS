@@ -8,7 +8,7 @@ import UsefulLinksSection from "./UseFullLinkFooter";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0D0D0D] text-white">
+    <footer className="bg-[#f4ebe2] text-black">
       <div className="container mx-auto px-4 py-16">
         <NewsletterSection />
         <div className="border-t border-[#FF9F0D] my-8"></div>
@@ -19,7 +19,7 @@ export default function Footer() {
           <RecentPostsSection />
         </div>
       </div>
-      <div className="bg-[#4F4F4F] py-8 flex ">
+      <div className="bg-[#e2a970] py-8 flex ">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <p className="text-[16px] leading-6 mb-4 md:mb-0">
             Copyright © 2022 by Tania Walijan. All Rights Reserved.
