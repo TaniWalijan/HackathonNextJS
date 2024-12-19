@@ -15,9 +15,9 @@ function Hero() {
               Home
             </Link>
             <span className='text-white'>/</span>
-            <Link href="/ourChefs" className='text-[#FF9F0D]'>
+            {/* <Link href="/ourChefs" className='text-[#FF9F0D]'>
               Chef
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
