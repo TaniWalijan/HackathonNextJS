@@ -14,10 +14,6 @@ function Hero() {
             <Link href="/" className='text-white hover:text-[#FF9F0D] transition-colors duration-300'>
               Home
             </Link>
-            <span className='text-white'>/</span>
-            {/* <Link href="/ourChefs" className='text-[#FF9F0D]'>
-              Chef
-            </Link> */}
           </div>
         </div>
       </div>
